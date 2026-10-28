@@ -1,0 +1,54 @@
+/* SpendWise Custom Styling */
+
+.nav-link {
+  color: #64748b;
+}
+
+.nav-link:hover {
+  color: #0f172a;
+  background-color: #f1f5f9;
+}
+
+.dark .nav-link {
+  color: #94a3b8;
+}
+
+.dark .nav-link:hover {
+  color: #f8fafc;
+  background-color: #1e293b;
+}
+
+.nav-link.active {
+  color: #059669 !important;
+  background-color: #ecfdf5 !important;
+  font-weight: 600;
+}
+
+.dark .nav-link.active {
+  color: #34d399 !important;
+  background-color: rgba(6, 78, 59, 0.4) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+/* Modal Animations */
+.modal-backdrop {
+  transition: opacity 0.2s ease-in-out;
+}
